@@ -221,3 +221,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IntelliJ IDEA project configuration
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Additional environment and secret files
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# AI agent local credentials
+.claude/settings.local.json
